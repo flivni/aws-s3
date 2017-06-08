@@ -10,4 +10,8 @@ Gem::Specification.new do |s|
 
   s.version       = AWS::S3::Version
   s.platform      = Gem::Platform::RUBY
+
+  s.add_development_dependency('xml-simple')
+  s.add_development_dependency('builder')
+  s.add_development_dependency('mime-types')
 end
